@@ -1,3 +1,9 @@
+Foreword
+========
+This is a customized powerline version, which only adds an Openstack segment
+using the OS_CLOUD environment variable, similar to the Python virtualenv.
+
+
 Powerline
 =========
 
