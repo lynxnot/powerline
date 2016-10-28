@@ -36,6 +36,14 @@ def virtualenv(pl, segment_info, ignore_venv=False, ignore_conda=False):
 
 
 @requires_segment_info
+def openstack(pl, segment_info):
+	'''Return the name of the current openstack selected cloud.
+
+	'''
+	return segment_info['environ'].get('OS_CLOUD', None)
+
+
+@requires_segment_info
 class CwdSegment(Segment):
 	def argspecobjs(self):
 		for obj in super(CwdSegment, self).argspecobjs():

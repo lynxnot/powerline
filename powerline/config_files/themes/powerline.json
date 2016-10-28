@@ -67,6 +67,9 @@
 		"powerline.segments.common.env.virtualenv": {
 			"before": "ⓔ  "
 		},
+		"powerline.segments.common.env.openstack": {
+			"before": "ᨒ  "
+		},
 		"powerline.segments.common.wthr.weather": {
 			"args": {
 				"icons": {

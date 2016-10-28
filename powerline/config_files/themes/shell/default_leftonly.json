@@ -14,6 +14,10 @@
 				"priority": 50
 			},
 			{
+				"function": "powerline.segments.common.env.openstack",
+				"priority": 40
+			},
+			{
 				"function": "powerline.segments.common.vcs.branch",
 				"priority": 40
 			},
